@@ -4900,7 +4900,7 @@ canRxAdd(IN_35D, onCanRxAc)</constant>
          0.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20241210" nPages="1" signature="rusEFI main.2024.12.11.STM32_MEGA.1090639699" version="5.0"/>
+    <versionInfo firmwareInfo="20241210" nPages="1" signature="rusEFI main.2024.12.11.STM32_MEGA.3433422265" version="5.0"/>
     <bibliography author="rusEFI 20241210" writeDate="date"/>
     <settings/>
     <userComments/>
