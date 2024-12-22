@@ -150,11 +150,11 @@ pins:
 
   - id: [D0, D0]
     class: [switch_inputs, event_inputs]
-    ts_name: CAN_RX [D20] (D1)
+    ts_name: CAN_RX [D20] (D0)
 
   - id: [D1, D1]
     class: [switch_inputs, event_inputs]
-    ts_name: CAN_TX [D21] (D0)
+    ts_name: CAN_TX [D21] (D1)
 
   - id: [C8, C8]
     class: [switch_inputs, event_inputs]
