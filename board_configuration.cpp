@@ -18,18 +18,10 @@ void setBoardDefaultConfiguration() {
 
 	// SPI1 AUX
 	engineConfiguration->is_enabled_spi_1 = true;
-	engineConfiguration->max31855spiDevice = SPI_DEVICE_1;
+	engineConfiguration->max31855spiDevice = SPI_DEVICE_3;
 	engineConfiguration->spi1mosiPin = Gpio::B4;
 	engineConfiguration->spi1misoPin = Gpio::B5;
 	engineConfiguration->spi1sckPin = Gpio::B3;
-
-	// SPI2 EGT
-	engineConfiguration->is_enabled_spi_2 = true;
-	engineConfiguration->max31855spiDevice = SPI_DEVICE_2;
-	engineConfiguration->spi2mosiPin = Gpio::A10;
-	engineConfiguration->spi2misoPin = Gpio::A9;
-	engineConfiguration->spi2sckPin = Gpio::A15;
-	engineConfiguration->max31855_cs[0] = Gpio::B10;
 
         //SPI3 SD card
 	engineConfiguration->isSdCardEnabled = true;
