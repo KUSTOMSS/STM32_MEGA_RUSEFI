@@ -148,11 +148,11 @@ pins:
     class: outputs
     ts_name: CEL [D37] (E14)
 
-  - id: [D1, D1]
+  - id: [D0, D0]
     class: [switch_inputs, event_inputs]
     ts_name: CAN_RX [D20] (D1)
 
-  - id: [D0, D0]
+  - id: [D1, D1]
     class: [switch_inputs, event_inputs]
     ts_name: CAN_TX [D21] (D0)
 
@@ -182,7 +182,7 @@ pins:
 
   - id: D7
     class: switch_inputs
-    ts_name: FLEX_IN [D2] (D7)
+    ts_name: EMPTY [D2] (D7)
 
   - id: D11
     class: outputs
@@ -210,19 +210,19 @@ pins:
 
   - id: [A10, A10, A10]
     class: [switch_inputs, event_inputs, outputs]
-    ts_name: SPI2 MOSI [D22] (A10)
+    ts_name: EMPTY [D22] (A10)
     
   - id: [A9, A9, A9]
     class: [switch_inputs, event_inputs, outputs]
-    ts_name: SPI2 MISO [D23] (A9)
+    ts_name: EMPTY [D23] (A9)
 
   - id: [A15, A15, A15]
     class: [switch_inputs, event_inputs, outputs]
-    ts_name: SPI2 SCK [D24] (A15)
+    ts_name: EMPTY [D24] (A15)
 
   - id: [B10, B10, B10]
     class: [switch_inputs, event_inputs, outputs]
-    ts_name: MAX31856_CS[0] [D25] (B10)
+    ts_name: EMPTY [D25 ](B10)
     
   - id: [C7, C7, C7]
     class: [switch_inputs, event_inputs, outputs]
@@ -254,8 +254,8 @@ pins:
 
   - id: [E10, E10, E10]
     class: [switch_inputs, event_inputs, outputs]
-    ts_name: NITROUS SWITCH [D42] (E10)
+    ts_name: EMPTY [D42] (E10)
 
   - id: [E0, E0, E0]
     class: [switch_inputs, event_inputs, outputs]
-    ts_name: NITROUS RELAY [D46] (E0)
+    ts_name: EMPTY [D46] (E0)
