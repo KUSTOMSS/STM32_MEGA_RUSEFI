@@ -29,10 +29,10 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::D15, // SPARE_4 [D31] (D15)
 	Gpio::D5, // EMPTY [D14] (D5)
 	Gpio::D6, // EMPTY [D15] (D6)
-	Gpio::A10, // SPI2 MOSI [D22] (A10)
-	Gpio::A9, // SPI2 MISO [D23] (A9)
-	Gpio::A15, // SPI2 SCK [D24] (A15)
-	Gpio::B10, // MAX31856_CS[0] [D25] (B10)
+	Gpio::A10, // EMPTY [D22] (A10)
+	Gpio::A9, // EMPTY [D23] (A9)
+	Gpio::A15, // EMPTY [D24] (A15)
+	Gpio::B10, // EMPTY [D25 ](B10)
 	Gpio::C7, // Empty [D26] (C7)
 	Gpio::B11, // Empty [D27] (B11)
 	Gpio::C6, // Empty [D28] (C6)
@@ -40,8 +40,8 @@ Gpio GENERATED_OUTPUTS = {
 	Gpio::D12, // Empty [D32] (D12)
 	Gpio::E13, // Empty [D39] (E13)
 	Gpio::E12, // EMPTY [D41] (E12)
-	Gpio::E10, // NITROUS SWITCH [D42] (E10)
-	Gpio::E0, // NITROUS RELAY [D46] (E0)
+	Gpio::E10, // EMPTY [D42] (E10)
+	Gpio::E0, // EMPTY [D46] (E0)
 // "IGNITION_1 [D40]",
 // "IGNITION_2 [D38]",
 // "IGNITION_3 [D52]",
@@ -67,10 +67,10 @@ Gpio GENERATED_OUTPUTS = {
 // "SPARE_4 [D31] (D15)",
 // "EMPTY [D14] (D5)",
 // "EMPTY [D15] (D6)",
-// "SPI2 MOSI [D22] (A10)",
-// "SPI2 MISO [D23] (A9)",
-// "SPI2 SCK [D24] (A15)",
-// "MAX31856_CS[0] [D25] (B10)",
+// "EMPTY [D22] (A10)",
+// "EMPTY [D23] (A9)",
+// "EMPTY [D24] (A15)",
+// "EMPTY [D25 ](B10)",
 // "Empty [D26] (C7)",
 // "Empty [D27] (B11)",
 // "Empty [D28] (C6)",
@@ -78,6 +78,6 @@ Gpio GENERATED_OUTPUTS = {
 // "Empty [D32] (D12)",
 // "Empty [D39] (E13)",
 // "EMPTY [D41] (E12)",
-// "NITROUS SWITCH [D42] (E10)",
-// "NITROUS RELAY [D46] (E0)",
+// "EMPTY [D42] (E10)",
+// "EMPTY [D46] (E0)",
 }
