@@ -4835,7 +4835,7 @@ end</constant>
          100.0
 </constant>
     </page>
-    <versionInfo firmwareInfo="20241218" nPages="1" signature="rusEFI main.2024.12.22.STM32_MEGA.891330914" version="5.0"/>
+    <versionInfo firmwareInfo="20241218" nPages="1" signature="rusEFI main.2024.12.22.STM32_MEGA.2138790425" version="5.0"/>
     <bibliography author="rusEFI 20241218" writeDate="date"/>
     <settings/>
     <userComments/>
