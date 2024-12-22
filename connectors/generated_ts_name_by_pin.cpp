@@ -24,8 +24,8 @@ const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 		case Gpio::C7: return "Empty [D26] (C7)";
 		case Gpio::C8: return "UART_TX [0] (C9)";
 		case Gpio::C9: return "UART_RX [1] (C8)";
-		case Gpio::D0: return "CAN_RX [D20] (D1)";
-		case Gpio::D1: return "CAN_TX [D21] (D0)";
+		case Gpio::D0: return "CAN_RX [D20] (D0)";
+		case Gpio::D1: return "CAN_TX [D21] (D1)";
 		case Gpio::D10: return "IDLE2 [D5] (D10)";
 		case Gpio::D11: return "VVT_OUT[D4] (D11)";
 		case Gpio::D12: return "Empty [D32] (D12)";
