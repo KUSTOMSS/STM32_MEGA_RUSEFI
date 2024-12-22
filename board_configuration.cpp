@@ -18,10 +18,8 @@ void setBoardDefaultConfiguration() {
 
 	// SPI1 AUX
 	engineConfiguration->is_enabled_spi_1 = true;
-	engineConfiguration->max31855spiDevice = SPI_DEVICE_3;
-	engineConfiguration->max31855spiDevice = SPI_DEVICE_2;
 	engineConfiguration->max31855spiDevice = SPI_DEVICE_1;
-	engineConfiguration->spi1mosiPin = Gpio::B4;
+	engineConfiguration->spi1mosiPin = Gpio::B6;
 	engineConfiguration->spi1misoPin = Gpio::B5;
 	engineConfiguration->spi1sckPin = Gpio::B3;
 
@@ -65,7 +63,7 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->fuelPumpPin = Gpio::E11;
 
 	//Input pin
-	engineConfiguration->vehicleSpeedSensorInputPin = Gpio::B6;
+	//engineConfiguration->vehicleSpeedSensorInputPin = Gpio::B6;
 	engineConfiguration->triggerInputPins[0] = Gpio::D3;
 	engineConfiguration->camInputs[0] = Gpio::D4;
 
