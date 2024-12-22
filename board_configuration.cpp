@@ -19,9 +19,9 @@ void setBoardDefaultConfiguration() {
 	// SPI1 AUX
 	engineConfiguration->is_enabled_spi_1 = true;
 	engineConfiguration->max31855spiDevice = SPI_DEVICE_1;
-	engineConfiguration->max31855_cs[0] = Gpio::B4;
-	engineConfiguration->spi1mosiPin = Gpio::B6;
-	engineConfiguration->spi1misoPin = Gpio::B5;
+	engineConfiguration->max31855_cs[0] = Gpio::E1;
+	engineConfiguration->spi1mosiPin = Gpio::B5;
+	engineConfiguration->spi1misoPin = Gpio::B4;
 	engineConfiguration->spi1sckPin = Gpio::B3;
 
         //SPI3 SD card
