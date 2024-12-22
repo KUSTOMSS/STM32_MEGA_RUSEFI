@@ -42,8 +42,6 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->sdCardLogFrequency = 20;
 
 	//CAN bus overwrites
-	engineConfiguration->canTxPin = Gpio::D1;
-	engineConfiguration->canRxPin = Gpio::D0;
         engineConfiguration->canWriteEnabled = true;
 	engineConfiguration->canReadEnabled = true;
 	engineConfiguration->canSleepPeriodMs = 50;
