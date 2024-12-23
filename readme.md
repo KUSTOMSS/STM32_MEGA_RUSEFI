@@ -12,3 +12,5 @@ HOW TO:
 6. Turn your STM32_MEGA to DFU with boot button
 7. Click Update Firmware and wait
 8. In TunerStudioMS use rusefi_STM32_MEGA.ini
+
+You can Desolder SPI Flash and use this pins to MAX31855/MAX31856 for reading EGT
