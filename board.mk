@@ -13,8 +13,4 @@ DDEFS += -DHAL_TRIGGER_USE_PAL=TRUE
 DDEFS += -DRAM_UNUSED_SIZE=100
 
 # Not use critical LED
-DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::Unassigned
-
-# assign critical LED to a non-existent pin if you do not have it on your board
-# good old PD14 is still the default value
-# DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::I15
+DDEFS += -DLED_CRITICAL_ERROR_BRAIN_PIN=Gpio::I15
