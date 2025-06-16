@@ -4,6 +4,80 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::E6, // IGNITION_1 [D40]
+	Gpio::E3, // IGNITION_2 [D38]
+	Gpio::E5, // IGNITION_3 [D52]
+	Gpio::C13, // IGNITION_4 [D48]
+	Gpio::E4, // IGNITION_5 [D36]
+	Gpio::E2, // IGNITION_6 [D34]
+	Gpio::B15, // INCJECTOR_1 [D8]
+	Gpio::A8, // INCJECTOR_2 [D9]
+	Gpio::B12, // INCJECTOR_3 [D10]
+	Gpio::E7, // INCJECTOR_4 [D11]
+	Gpio::B14, // INCJECTOR_5 [D12]
+	Gpio::B13, // INCJECTOR_6 [D50]
+	Gpio::E11, // FUEL_PUMP_RELAY [D45] (E11)
+	Gpio::E8, // TACHO [D49] (E8)
+	Gpio::D10, // IDLE2 [D5] (D10)
+	Gpio::D9, // IDLE1 [D6] (D9)
+	Gpio::D8, // BOOST [D7] (D8)
+	Gpio::E9, // FAN_OUT [D47] (E8)
+	Gpio::E14, // CEL [D37] (E14)
+	Gpio::D11, // VVT_OUT[D4] (D11)
+	Gpio::E15, // SPARE_2 [D35] (E15)
+	Gpio::D13, // SPARE_3 [D33] (D13)
+	Gpio::D15, // SPARE_4 [D31] (D15)
+	Gpio::D5, // EMPTY [D14] (D5)
+	Gpio::D6, // EMPTY [D15] (D6)
+	Gpio::A10, // EMPTY [D22] (A10)
+	Gpio::A9, // EMPTY [D23] (A9)
+	Gpio::A15, // EMPTY [D24] (A15)
+	Gpio::B10, // EMPTY [D25 ](B10)
+	Gpio::C7, // Empty [D26] (C7)
+	Gpio::B11, // Empty [D27] (B11)
+	Gpio::C6, // Empty [D28] (C6)
+	Gpio::D14, // Empty [D30] (D14)
+	Gpio::D12, // Empty [D32] (D12)
+	Gpio::E13, // Empty [D39] (E13)
+	Gpio::E12, // EMPTY [D41] (E12)
+	Gpio::E10, // EMPTY [D42] (E10)
+	Gpio::E0, // EMPTY [D46] (E0)
+// "IGNITION_1 [D40]",
+// "IGNITION_2 [D38]",
+// "IGNITION_3 [D52]",
+// "IGNITION_4 [D48]",
+// "IGNITION_5 [D36]",
+// "IGNITION_6 [D34]",
+// "INCJECTOR_1 [D8]",
+// "INCJECTOR_2 [D9]",
+// "INCJECTOR_3 [D10]",
+// "INCJECTOR_4 [D11]",
+// "INCJECTOR_5 [D12]",
+// "INCJECTOR_6 [D50]",
+// "FUEL_PUMP_RELAY [D45] (E11)",
+// "TACHO [D49] (E8)",
+// "IDLE2 [D5] (D10)",
+// "IDLE1 [D6] (D9)",
+// "BOOST [D7] (D8)",
+// "FAN_OUT [D47] (E8)",
+// "CEL [D37] (E14)",
+// "VVT_OUT[D4] (D11)",
+// "SPARE_2 [D35] (E15)",
+// "SPARE_3 [D33] (D13)",
+// "SPARE_4 [D31] (D15)",
+// "EMPTY [D14] (D5)",
+// "EMPTY [D15] (D6)",
+// "EMPTY [D22] (A10)",
+// "EMPTY [D23] (A9)",
+// "EMPTY [D24] (A15)",
+// "EMPTY [D25 ](B10)",
+// "Empty [D26] (C7)",
+// "Empty [D27] (B11)",
+// "Empty [D28] (C6)",
+// "Empty [D30] (D14)",
+// "Empty [D32] (D12)",
+// "Empty [D39] (E13)",
+// "EMPTY [D41] (E12)",
+// "EMPTY [D42] (E10)",
+// "EMPTY [D46] (E0)",
 }
