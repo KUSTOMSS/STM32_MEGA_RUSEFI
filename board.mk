@@ -6,7 +6,7 @@ include $(BOARD_DIR)/meta-info.env
 
 # Override DEFAULT_ENGINE_TYPE
 DDEFS += -DSTM32F407xx
-DDEFS += -DFIRMWARE_ID=\"KRC_M52\"
+DDEFS += -DEFI_MAX_31855=TRUE
 DDEFS += -DHAL_TRIGGER_USE_PAL=TRUE
 
 # reduce memory usage monitoring
