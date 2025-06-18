@@ -4,18 +4,18 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::E6, // IGNITION_1 [D40]
+	Gpio::E2, // IGNITION_1 [D40]
 	Gpio::E3, // IGNITION_2 [D38]
-	Gpio::E5, // IGNITION_3 [D52]
-	Gpio::C13, // IGNITION_4 [D48]
+	Gpio::C13, // IGNITION_3 [D52]
+	Gpio::E6, // IGNITION_4 [D48]
 	Gpio::E4, // IGNITION_5 [D36]
-	Gpio::E2, // IGNITION_6 [D34]
+	Gpio::E5, // IGNITION_6 [D34]
 	Gpio::B15, // INCJECTOR_1 [D8]
-	Gpio::A8, // INCJECTOR_2 [D9]
+	Gpio::B14, // INCJECTOR_2 [D9]
 	Gpio::B12, // INCJECTOR_3 [D10]
-	Gpio::E7, // INCJECTOR_4 [D11]
-	Gpio::B14, // INCJECTOR_5 [D12]
-	Gpio::B13, // INCJECTOR_6 [D50]
+	Gpio::B13, // INCJECTOR_4 [D11]
+	Gpio::A8, // INCJECTOR_5 [D12]
+	Gpio::E7, // INCJECTOR_6 [D50]
 	Gpio::E11, // FUEL_PUMP_RELAY [D45] (E11)
 	Gpio::E8, // TACHO [D49] (E8)
 	Gpio::D10, // IDLE2 [D5] (D10)
