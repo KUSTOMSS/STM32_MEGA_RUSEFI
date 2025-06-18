@@ -47,9 +47,9 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->sdCardCsPin = Gpio::D2;
 	engineConfiguration->sdCardLogFrequency = 20;
 
-	engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
-	engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
-	engineConfiguration->injectionMode = IM_SEQUENTIAL;
+	//engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
+	//engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
+	//engineConfiguration->injectionMode = IM_SEQUENTIAL;
 
 	//CAN bus overwrites
         engineConfiguration->canWriteEnabled = true;
