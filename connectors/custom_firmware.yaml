@@ -1,5 +1,5 @@
 pins:
-  - id: E2
+  - id: E6
     class: outputs
     ts_name: IGNITION_1 [D40]
 
@@ -7,11 +7,11 @@ pins:
     class: outputs
     ts_name: IGNITION_2 [D38]
 
-  - id: C13
+  - id: E5
     class: outputs
     ts_name: IGNITION_3 [D52]
 
-  - id: E6
+  - id: C13
     class: outputs
     ts_name: IGNITION_4 [D48]
 
@@ -19,7 +19,7 @@ pins:
     class: outputs
     ts_name: IGNITION_5 [D36]
 
-  - id: E5
+  - id: E2
     class: outputs
     ts_name: IGNITION_6 [D34]
 
@@ -27,7 +27,7 @@ pins:
     class: outputs
     ts_name: INCJECTOR_1 [D8]
 
-  - id: B14
+  - id: A8
     class: outputs
     ts_name: INCJECTOR_2 [D9]
 
@@ -35,18 +35,19 @@ pins:
     class: outputs
     ts_name: INCJECTOR_3 [D10]
 
-  - id: B13
+  - id: E7
     class: outputs
     ts_name: INCJECTOR_4 [D11]
 
-  - id: A8
+  - id: B14
     class: outputs
     ts_name: INCJECTOR_5 [D12]
 
-  - id: E7
+  - id: B13
     class: outputs
     ts_name: INCJECTOR_6 [D50]
 
+# getAdcChannelBrainPin in 'stm32_adc.cpp' says EFI_ADC_0 is PA0
   - id: EFI_ADC_0
     class: analog_inputs
     ts_name: Analog Inputs 0 (IAT) (A0)
