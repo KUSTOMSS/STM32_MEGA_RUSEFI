@@ -1,25 +1,25 @@
 pins:
-  - id: E2
+  - id: PE2
     class: outputs
     ts_name: IGNITION_1 [D40]
 
-  - id: E3
+  - id: PE3
     class: outputs
     ts_name: IGNITION_2 [D38]
 
-  - id: C13
+  - id: PC13
     class: outputs
     ts_name: IGNITION_3 [D52]
 
-  - id: E6
+  - id: PE6
     class: outputs
     ts_name: IGNITION_4 [D48]
 
-  - id: E4
+  - id: PE4
     class: outputs
     ts_name: IGNITION_5 [D36]
 
-  - id: E5
+  - id: PE5
     class: outputs
     ts_name: IGNITION_6 [D34]
 
