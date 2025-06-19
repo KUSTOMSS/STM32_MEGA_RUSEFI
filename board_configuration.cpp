@@ -15,19 +15,19 @@ Gpio getWarningLedPin() {
 // board-specific configuration setup
 void setBoardDefaultConfiguration() {
 
-	engineConfiguration->injectionPins[0] = Gpio::B15;
-	engineConfiguration->injectionPins[1] = Gpio::B14;
-	engineConfiguration->injectionPins[2] = Gpio::B12;
-	engineConfiguration->injectionPins[3] = Gpio::B13;
-	engineConfiguration->injectionPins[4] = Gpio::A8;
-	engineConfiguration->injectionPins[5] = Gpio::E7;
+	//engineConfiguration->injectionPins[0] = Gpio::B15;
+	//engineConfiguration->injectionPins[1] = Gpio::B14;
+	//engineConfiguration->injectionPins[2] = Gpio::B12;
+	//engineConfiguration->injectionPins[3] = Gpio::B13;
+	//engineConfiguration->injectionPins[4] = Gpio::A8;
+	//engineConfiguration->injectionPins[5] = Gpio::E7;
 	
-	engineConfiguration->ignitionPins[0] = Gpio::E2;
-	engineConfiguration->ignitionPins[1] = Gpio::E3;
-	engineConfiguration->ignitionPins[2] = Gpio::C13;
-	engineConfiguration->ignitionPins[3] = Gpio::E6;
-	engineConfiguration->ignitionPins[4] = Gpio::E4;
-	engineConfiguration->ignitionPins[5] = Gpio::E5;
+	//engineConfiguration->ignitionPins[0] = Gpio::E2;
+	//engineConfiguration->ignitionPins[1] = Gpio::E3;
+	//engineConfiguration->ignitionPins[2] = Gpio::C13;
+	//engineConfiguration->ignitionPins[3] = Gpio::E6;
+	//engineConfiguration->ignitionPins[4] = Gpio::E4;
+	//engineConfiguration->ignitionPins[5] = Gpio::E5;
 
 	// SPI1 AUX
 	engineConfiguration->is_enabled_spi_1 = true;
@@ -47,9 +47,9 @@ void setBoardDefaultConfiguration() {
 	engineConfiguration->sdCardCsPin = Gpio::D2;
 	engineConfiguration->sdCardLogFrequency = 20;
 
-	//engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
-	//engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
-	//engineConfiguration->injectionMode = IM_SEQUENTIAL;
+	engineConfiguration->ignitionMode = IM_INDIVIDUAL_COILS;
+	engineConfiguration->crankingInjectionMode = IM_SEQUENTIAL;
+	engineConfiguration->injectionMode = IM_SEQUENTIAL;
 
 	//CAN bus overwrites
         engineConfiguration->canWriteEnabled = true;
