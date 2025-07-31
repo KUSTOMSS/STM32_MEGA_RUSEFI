@@ -1501,7 +1501,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2203887868
+#define SIGNATURE_HASH 2286231465
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1525,6 +1525,16 @@
 #define stft_cell_cfg_s_size 4
 #define STFT_CELL_COUNT 4
 #define stft_s_size 28
+#define stft_state_e_stftDisabledAfrOurOfRange 6
+#define stft_state_e_stftDisabledClt 5
+#define stft_state_e_stftDisabledCrankingDelay 4
+#define stft_state_e_stftDisabledDFCO 7
+#define stft_state_e_stftDisabledFuelCut 9
+#define stft_state_e_stftDisabledRPM 3
+#define stft_state_e_stftDisabledSettings 1
+#define stft_state_e_stftDisabledTpsAccel 8
+#define stft_state_e_stftDisabledTuning 2
+#define stft_state_e_stftEnabled 0
 #define switch_input_pin_e_enum 0="NONE",26="ALS_ENABLE [D51] (B8)",50="CAN_RX [D20] (D0)",51="CAN_TX [D21] (D1)",54="Camshaft Sensor [D18] (E3)",53="Crankshaft Sensor [D19] (E2)",55="EMPTY [D14] (D5)",56="EMPTY [D15] (D6)",12="EMPTY [D22] (A10)",11="EMPTY [D23] (A9)",17="EMPTY [D24] (A15)",28="EMPTY [D25 ](B10)",57="EMPTY [D2] (D7)",78="EMPTY [D41] (E12)",76="EMPTY [D42] (E10)",66="EMPTY [D46] (E0)",41="Empty [D26] (C7)",29="Empty [D27] (B11)",40="Empty [D28] (C6)",64="Empty [D30] (D14)",62="Empty [D32] (D12)",79="Empty [D39] (E13)",27="LAUNCH_IN [D53] (B9)",52="SD_CS [D13] (D2)",43="UART_RX [1] (C8)",42="UART_TX [0] (C9)",24="VSS [D3] (B6)"
 #define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","EMPTY [D23] (A9)","EMPTY [D22] (A10)","INVALID","INVALID","INVALID","INVALID","EMPTY [D24] (A15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS [D3] (B6)","INVALID","ALS_ENABLE [D51] (B8)","LAUNCH_IN [D53] (B9)","EMPTY [D25 ](B10)","Empty [D27] (B11)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Empty [D28] (C6)","Empty [D26] (C7)","UART_TX [0] (C9)","UART_RX [1] (C8)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","CAN_RX [D20] (D0)","CAN_TX [D21] (D1)","SD_CS [D13] (D2)","Crankshaft Sensor [D19] (E2)","Camshaft Sensor [D18] (E3)","EMPTY [D14] (D5)","EMPTY [D15] (D6)","EMPTY [D2] (D7)","INVALID","INVALID","INVALID","INVALID","Empty [D32] (D12)","INVALID","Empty [D30] (D14)","INVALID","EMPTY [D46] (E0)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","EMPTY [D42] (E10)","INVALID","EMPTY [D41] (E12)","Empty [D39] (E13)"
 #define TABLE_2_LOAD_SIZE 8
@@ -2042,12 +2052,12 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.07.30.STM32_MEGA.2203887868"
+#define TS_SIGNATURE "rusEFI main.2025.07.31.STM32_MEGA.2286231465"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
 #define TS_TEST_COMMAND_char t
-#define TS_TOTAL_OUTPUT_SIZE 2004
+#define TS_TOTAL_OUTPUT_SIZE 2008
 #define TS_TRIGGER_SCOPE_CHANNEL_1_NAME "Channel 1"
 #define TS_TRIGGER_SCOPE_CHANNEL_2_NAME "Channel 2"
 #define TS_TRIGGER_SCOPE_DISABLE 5
